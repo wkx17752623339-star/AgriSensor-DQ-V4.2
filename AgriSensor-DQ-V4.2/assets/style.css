@@ -1,0 +1,33 @@
+/* V4.2: accessible scientific research dashboard with botanical accents */
+:root{--dq-ink:#19324a;--dq-blue:#225e9a;--dq-teal:#087f77;--dq-mint:#eaf7f3;--dq-line:#dce6ed}
+.stApp{background:#f4f7fb;color:var(--dq-ink)}
+.block-container{padding-top:1.45rem;padding-bottom:3.4rem;max-width:1520px}
+[data-testid="stSidebar"]{background:#ffffff;border-right:1px solid var(--dq-line)}
+[data-testid="stSidebar"] [data-testid="stMarkdownContainer"]{color:#263f56}
+[data-testid="stSidebar"] [role="radiogroup"] label{border-radius:12px;padding:11px 12px;transition:background .15s;font-size:16px;font-weight:600}
+[data-testid="stSidebar"] [role="radiogroup"] label:hover{background:var(--dq-mint)}
+[data-testid="stSidebar"] [role="radiogroup"] label p{font-size:16px!important;line-height:1.65!important}
+[data-testid="stSidebar"] .stCaption p{font-size:13px!important;line-height:1.65!important}
+.page-head{background:linear-gradient(112deg,#fff 0%,#fff 72%,#eaf6f4 100%);border:1px solid var(--dq-line);border-left:5px solid var(--dq-teal);border-radius:17px;padding:27px 32px;margin-bottom:22px;box-shadow:0 7px 25px #193a580a}
+.page-head h1{color:var(--dq-ink);font-size:34px;line-height:1.3;margin:8px 0;font-weight:760}
+.page-head p{color:#566e82;margin:0;font-size:16px;line-height:1.65}
+.eyebrow{color:var(--dq-teal);letter-spacing:1.8px;font-size:12px;font-weight:800}
+.feature-intro{display:flex;align-items:center;gap:18px;padding:20px 24px;background:white;border:1px solid var(--dq-line);border-radius:17px;margin-bottom:22px;box-shadow:0 6px 20px #143f6008}
+.feature-icon{display:flex;align-items:center;justify-content:center;width:64px;height:64px;flex:0 0 64px;color:var(--dq-teal);background:linear-gradient(145deg,#e5f5f0,#f0f6fc);border:1px solid #cfece5;border-radius:17px}
+.feature-icon svg{width:35px;height:35px}
+.feature-title{font-size:22px;font-weight:750;color:var(--dq-ink);margin-bottom:4px}
+.feature-desc{font-size:15px;color:#617789;line-height:1.55}
+[data-testid="stMetric"]{background:white;border:1px solid var(--dq-line);border-radius:15px;padding:19px;box-shadow:0 4px 18px #193a5808}
+[data-testid="stMetricLabel"] p{font-size:15px!important;color:#607589!important;font-weight:650!important}
+[data-testid="stMetricValue"]{color:#17456c;font-size:31px}
+.stApp h2{font-size:24px!important;color:#203a53}
+.stApp h3{font-size:20px!important;color:#203a53}
+.stApp [data-testid="stMarkdownContainer"] p,.stApp [data-testid="stMarkdownContainer"] li{line-height:1.65}
+.stApp .stTabs [data-baseweb="tab"]{font-size:16px;font-weight:650;padding:12px 17px}
+.stApp .stTabs [data-baseweb="tab"] p{font-size:16px!important}
+.stApp .stButton button,.stApp .stDownloadButton button{min-height:43px;font-size:15px;font-weight:650;border-radius:11px}
+.stApp .stButton button[kind="primary"],.stApp .stDownloadButton button[kind="primary"]{background:var(--dq-teal);border:0;color:white}
+.stApp .stButton button[kind="primary"]:hover{background:#08645f}
+[data-testid="stDataFrame"]{border:1px solid var(--dq-line);border-radius:12px;overflow:hidden}
+[data-testid="stPlotlyChart"]{background:white;border:1px solid var(--dq-line);border-radius:14px;padding:10px}
+@media(max-width:760px){.page-head{padding:19px}.page-head h1{font-size:27px}.feature-intro{padding:15px}.feature-icon{width:50px;height:50px;flex-basis:50px}.feature-icon svg{width:29px;height:29px}}
